@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir -p  my_dir | xargs chmod 751
+mkdir -p my_dir | xargs -n 1 chmod 751
