@@ -1,2 +1,2 @@
 #!/bin/bash
-chown vincent:_hello -h _hello & chgrp staff:_hello -h _hello
+chown $(readlink -f '_hello') vincent:staff
