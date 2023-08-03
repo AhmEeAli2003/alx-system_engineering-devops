@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1AFaLap --group-directories-first |sed -e 's/\*$//' -e 's/\* / /g' -e ':a' -e 'N' -e '$!ba' -e 's/\n/, /g' -e 's/$/\n/'
+ls -1AFaLap --group-directories-first |sed -e 's/\*$//' -e 's/\* / /g' -e ':a' -e 'N' -e '$!ba' -e 's/\n/, /g'
