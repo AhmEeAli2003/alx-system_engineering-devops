@@ -1,1 +1,1 @@
-This directory contains files of solutions of bash task
+This ditrectory contains solutions file
