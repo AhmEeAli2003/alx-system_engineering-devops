@@ -1,0 +1,2 @@
+#!/bin/bash
+cat -n | grep -E '^[[:blank:]]*([02468]|10)\>' | cut -f2-
